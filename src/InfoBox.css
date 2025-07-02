@@ -1,0 +1,8 @@
+
+#InfoCard {
+   border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #dde5ec;
+    padding: 40px !important;
+    border-radius: 20px !important;
+}
