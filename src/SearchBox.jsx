@@ -9,7 +9,7 @@ export default function SearchBox({ updateInfo }) {
     let [error, setError] = useState("");
 
     const API_URL = "http://api.weatherapi.com/v1/current.json";
-    // const API_KEY = "47ec45aa0c634670b9e55613251706";
+  
     const API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
     let getWeather = async () => {
         try {
