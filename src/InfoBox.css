@@ -1,8 +1,16 @@
 
 #InfoCard {
    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    background-color: #dde5ec;
-    padding: 40px !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+   
+     background-color: #e4f1ff;
+    padding: 0 15px !important;
     border-radius: 20px !important;
+    /* min-height: 437px; */
+}
+.css-1lt5qva-MuiCardContent-root:last-child{
+    padding-bottom: 0 !important;
+}
+.css-1lt5qva-MuiCardContent-root{
+    padding: 0 !important;
 }

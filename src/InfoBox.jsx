@@ -3,6 +3,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import "./InfoBox.css";
+import { Padding } from '@mui/icons-material';
 
 
 
@@ -17,12 +18,12 @@ export default function InfoBox({ info }) {
                         
                         <h5>{info.city}, {info.region} - {info.country} </h5>
                     </Typography>
-                    <Typography variant="body2" sx={{ color: 'text.secondary' }} component="span">
+                    <Typography  variant="body2" sx={{ color: 'text.secondary' }} component="span">
                         <p>Temperature: {info.temp}&deg;C</p>
                         <p>Feels Like: {info.feelsLike}&deg;C</p>
                         <p>Wind: {info.wind}kph</p>
                         <p>Humidity: {info.humidity}%</p>
-                        <p>heat Index: {info.heatIndex} </p>
+                        <p>Heat Index: {info.heatIndex} </p>
                     </Typography>
                 </CardContent>
             </Card>

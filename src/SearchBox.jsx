@@ -2,7 +2,7 @@ import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import SearchIcon from '@mui/icons-material/Search';
 import { useState, useEffect } from 'react';
-import './SearchBox.css';
+
 
 export default function SearchBox({ updateInfo }) {
     let [city, setCity] = useState("");
